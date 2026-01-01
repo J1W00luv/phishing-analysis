@@ -24,8 +24,5 @@ Problems i had during the execution:
 	All three tests performed as expected, proving the effectiveness of the attack on different operating systems(IOS & Android) and both inside and outside of the WiFi network which my PC was connected to. However, data capturing was heavily relied on the unencrypted HTTP data ports (eg. 2525). On one of my tests the mobile operator proved to block the connection, not allowing the data to be stolen. It is suggested that it already had a good defence system against phishing attacks.
 
 ## **Conclusion:**
-	In this practical I have simulated the life cycle of a phishing attack. I have learned about highly efficient phishing tools (“Storm-Breaker”, and “NGROK”) and how the data can be captured through the network tunnels. The key Indicators of Compromise included use of HTTP ports (2525), which are not considered secure. The defence against those types of attacks highly rely on user education and detection systems, which should be able to detect and block this type of network traffic.
-
-
-
+	In this practical I have simulated the life cycle of a phishing attack. I have learned about highly efficient phishing tools (“Storm-Breaker” and “NGROK”) and how the data can be captured through the network tunnels. The key Indicators of Compromise included use of HTTP ports (2525), which are not considered secure. The defence against those types of attacks highly rely on user education and detection systems, which should be able to detect and block this type of network traffic.
 
