@@ -4,10 +4,10 @@
 	To understand how phishing links are created using Storm-Breaker and how the data can be stolen through the network tunnels created by NGROK. To analyze the results afterwards and understand how phishing type of attacks could be prevented.
 
 ## **Method:**
-1. Set up the controlled environment: Configure Kali Linux VM and install Storm Breaker.
-	2. Prepare tunnels: Use NGROK to create safe network tunnels
-	3. Attack simulation: Create testing phishing URLs, preparing for the data capture.
-	4. Data capture & analysis: Use the test URL on mobile devices and identify Indicators of Compromise.
+	* 1. Set up the controlled environment: Configure Kali Linux VM and install Storm Breaker.
+	* 2. Prepare tunnels: Use NGROK to create safe network tunnels
+	* 3. Attack simulation: Create testing phishing URLs, preparing for the data capture.
+	* 4. Data capture & analysis: Use the test URL on mobile devices and identify Indicators of Compromise.
 
 Problems i had during the execution:
 
@@ -25,3 +25,4 @@ Network blocking | During the testing data capture process failed due to the mob
 
 ## **Conclusion:**
 	In this practical I have simulated the life cycle of a phishing attack. I have learned about highly efficient phishing tools (“Storm-Breaker”, and “NGROK”) and how the data can be captured through the network tunnels. The key Indicators of Compromise included use of HTTP ports (2525), which are not considered secure. The defence against those types of attacks highly rely on user education and detection systems, which should be able to detect and block this type of network traffic.
+
